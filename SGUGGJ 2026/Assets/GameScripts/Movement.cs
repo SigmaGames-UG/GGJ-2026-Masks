@@ -42,7 +42,7 @@ public class Movement : MonoBehaviour
 
     private void FixedUpdate()
     {
-        rb.linearVelocity = input * speed;
+        rb.velocity = input * speed;
     }
 
     
